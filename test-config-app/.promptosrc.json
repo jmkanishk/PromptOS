@@ -1,0 +1,5 @@
+{
+  "allowlist": ["^./scripts/deploy\\.sh", "rm -rf build"],
+  "denylist": ["rm -rf build", "npm publish"],
+  "autoApprove": true
+}

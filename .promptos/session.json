@@ -1,0 +1,13 @@
+{
+  "projectSummary": "Run the Python script to print the current date",
+  "recentPrompts": [
+    "create a python script that prints current date",
+    "give me a run command"
+  ],
+  "recentCommands": [
+    "New-Item -Name 'date_script.py' -ItemType 'File'",
+    "Add-Content -Path 'date_script.py' -Value 'import datetime; print(datetime.datetime.now().strftime('%Y-%m-%d'))'",
+    "Add-Content -Path 'date_script.py' -Value \"import datetime; print(datetime.datetime.now().strftime('%Y-%m-%d'))\"",
+    "python date_script.py"
+  ]
+}

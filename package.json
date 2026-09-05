@@ -1,0 +1,25 @@
+{
+  "name": "promptos",
+  "version": "0.1.0",
+  "description": "AI-powered Linux CLI assistant that turns natural language into safe, executed dev workflows.",
+  "type": "module",
+  "bin": {
+    "promptos": "./src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^10.2.2",
+    "ora": "^8.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
